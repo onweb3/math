@@ -1,18 +1,46 @@
-Licence : MIT
-This Package Helps you do simple Arthemetic operation to Infinity data supply
 
-to add Specific Number use
+# esmathjs
 
-npm install cot 
+Simplify Calculations in your node projects.
 
-// Using ES6 modules
-import { Add } from 'cot';
 
-// Using CommonJS modules
-const { Add } = require('cot');
 
-// Using the Add function
-console.log(Add(5, 3)); // Output: 8
-console.log(Add(5, 3 , 10)); // Output: 18
+## Installation
 
-you can supply as much data as you wish.
+Install my-project with npm
+
+```bash
+  npm install esmathjs
+```
+    
+## Optimizations
+
+What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Authors
+
+- [@onweb3](https://www.github.com/onweb3)
+
+
+## Usage/Examples
+
+```javascript
+import Add from "./src/add.js"
+import Substract from "./src/substract.js"
+import Multiply from "./src/multiply.js"
+import Divide from "./src/divide.js"
+import percentage from "./src/percentage.js"
+
+console.log(Add(1,2)); 
+console.log(Substract(1,2));
+console.log(Multiply(1,2));
+console.log(Divide(1,2));
+console.log(percentage(85,180));
+```
+
