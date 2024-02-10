@@ -1,0 +1,13 @@
+{
+  "name": "cot",
+  "version": "1.0.0",
+  "description": "Simplify Calculation",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lekhraj",
+  "license": "ISC"
+}
