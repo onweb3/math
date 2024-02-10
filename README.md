@@ -31,11 +31,8 @@ What optimizations did you make in your code? E.g. refactors, performance improv
 ## Usage/Examples
 
 ```javascript
-import Add from "./src/add.js"
-import Substract from "./src/substract.js"
-import Multiply from "./src/multiply.js"
-import Divide from "./src/divide.js"
-import percentage from "./src/percentage.js"
+import {add, subtract, multiply, divide, percentage} from "esmathjs"
+
 
 console.log(Add(1,2)); 
 console.log(Substract(1,2));
